@@ -1,5 +1,40 @@
 # Changelog
 
+## 0.72.0 (2026-01-25)
+
+Full Changelog: [sdk-v0.71.2...sdk-v0.72.0](https://github.com/anthropics/anthropic-sdk-typescript/compare/sdk-v0.71.2...sdk-v0.72.0)
+
+### Features
+
+* **api:** migrate sending message format in output_config rather than output_format ([0048e31](https://github.com/anthropics/anthropic-sdk-typescript/commit/0048e31ef0e2a4a59626adfee16c76337e28b565))
+* **ci:** add breaking change detection workflow ([7d51dac](https://github.com/anthropics/anthropic-sdk-typescript/commit/7d51dacef07727ceaae192e6a0fefb2e0a60a987))
+
+
+### Bug Fixes
+
+* **mcp:** correct code tool API endpoint ([ba21721](https://github.com/anthropics/anthropic-sdk-typescript/commit/ba21721557b96dd0fd89e2b3459aed7e95dd733a))
+* **mcp:** return correct lines on typescript errors ([0b98943](https://github.com/anthropics/anthropic-sdk-typescript/commit/0b98943430f7d6c5c85047d9d676efbf2b6b8052))
+
+
+### Chores
+
+* break long lines in snippets into multiline ([80e8e4c](https://github.com/anthropics/anthropic-sdk-typescript/commit/80e8e4c8027db6f5238eb2e0c62d89f5ddbd0bd0))
+* **ci:** Add Claude Code GitHub Workflow ([#612](https://github.com/anthropics/anthropic-sdk-typescript/issues/612)) ([0a6c372](https://github.com/anthropics/anthropic-sdk-typescript/commit/0a6c372e5c9524aef125c854a0f39680d82be642))
+* **ci:** fix multi package publishing ([a7e605c](https://github.com/anthropics/anthropic-sdk-typescript/commit/a7e605c3bee736409b10ef92f95da1ad9bf8ac8b))
+* **ci:** upgrade `actions/github-script` ([a582a5a](https://github.com/anthropics/anthropic-sdk-typescript/commit/a582a5afe94412d1b24732c92c4eca0debfb514f))
+* **internal:** codegen related update ([a7fbcd8](https://github.com/anthropics/anthropic-sdk-typescript/commit/a7fbcd8733d554a7682d612ab0cf4873a4d05265))
+* **internal:** codegen related update ([2a6e2cd](https://github.com/anthropics/anthropic-sdk-typescript/commit/2a6e2cd068a6c5846054e4d0d0103be9750b1f57))
+* **internal:** update `actions/checkout` version ([425c3d2](https://github.com/anthropics/anthropic-sdk-typescript/commit/425c3d2ca6d0a85fde54f44353c8532175468480))
+* **internal:** upgrade babel, qs, js-yaml ([fe4dca7](https://github.com/anthropics/anthropic-sdk-typescript/commit/fe4dca74f8a04dea8208f7cb3bb57952c7e518c5))
+* **internal:** version bump ([f3e89e8](https://github.com/anthropics/anthropic-sdk-typescript/commit/f3e89e84a2c807d7ded1738a9a9090710cb6605e))
+* **tests:** remove extraneous header test ([fd388c6](https://github.com/anthropics/anthropic-sdk-typescript/commit/fd388c6a113d655409659aff82dd3336b946f8b4))
+
+
+### Documentation
+
+* tool use documentation link ([#873](https://github.com/anthropics/anthropic-sdk-typescript/issues/873)) ([#616](https://github.com/anthropics/anthropic-sdk-typescript/issues/616)) ([ef8da95](https://github.com/anthropics/anthropic-sdk-typescript/commit/ef8da9541155168061125cb7dd22d3eb38613c96))
+* update README with Claude branding ([#611](https://github.com/anthropics/anthropic-sdk-typescript/issues/611)) ([203223a](https://github.com/anthropics/anthropic-sdk-typescript/commit/203223ac1720b1387b37dc83d6e36a89c2af9179))
+
 ## 0.71.2 (2025-12-05)
 
 Full Changelog: [sdk-v0.71.1...sdk-v0.71.2](https://github.com/anthropics/anthropic-sdk-typescript/compare/sdk-v0.71.1...sdk-v0.71.2)
